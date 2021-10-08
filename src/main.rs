@@ -26,9 +26,9 @@ fn parse_csv() -> Result<()> {
             continue;
         }
 
-        let template = r"C:\Users\mwright\Dropbox (Cairns Electric Ltd.)\46263 - Site Team Folder\DRAWINGS SOUTH\13 - Panel Schedules\Template\PANEL- PREFIX.xlsx";
+        let template = r"C:\Users\mwright\Dropbox (Cairns Electric Ltd.)\46263 - Site Team Folder\DRAWINGS SOUTH\12 - Electrical Panels\Schedules\Template\PANEL- PREFIX.xlsx";
         let to = format!(
-            r"C:\Users\mwright\Dropbox (Cairns Electric Ltd.)\46263 - Site Team Folder\DRAWINGS SOUTH\13 - Panel Schedules\{}.xlsx",
+            r"C:\Users\mwright\Dropbox (Cairns Electric Ltd.)\46263 - Site Team Folder\DRAWINGS SOUTH\12 - Electrical Panels\Schedules\{}.xlsx",
             row.label
         );
 
